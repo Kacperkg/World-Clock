@@ -7,7 +7,7 @@ export default function Region() {
 
   return (
     <div className="flex w-full items-end justify-between">
-      <div className="text-8xl font-bold uppercase">
+      <div className="text-8xl font-extrabold uppercase">
         <h1>{city},</h1>
         <h1>UNITED KINGDOM</h1>
       </div>

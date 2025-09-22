@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "id": "9fad3240-895a-4d61-a9fd-0978cc601de8",
+      "locations": [
+        {
+          "id": "fa91c4b2-0c3a-4f41-9ca1-8ea7f45b663c",
+          "cityName": "New York",
+          "country": "USA",
+          "timezone": "America/New_York",
+          "latitude": 40.7128,
+          "longitude": -74.006,
+          "isFavorite": true
+        },
+        {
+          "id": "5d21e894-f22b-49e9-97bb-23d5eae90b22",
+          "cityName": "Tokyo",
+          "country": "Japan",
+          "timezone": "Asia/Tokyo",
+          "latitude": 35.6762,
+          "longitude": 139.6503
+        }
+      ]
+    }
+  ]
+}
