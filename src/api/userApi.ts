@@ -17,6 +17,7 @@ export interface Location {
   latitude?: number; // optional for map visualization
   longitude?: number; // optional
   isFavorite?: boolean; // optional toggle
+  main?: boolean;
 }
 
 const API_URL = "http://localhost:4000/users";
