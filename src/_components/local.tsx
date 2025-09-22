@@ -69,10 +69,6 @@ export default function LocalTimezone() {
             {getMonth(date)} {date.getDate()} {date.getFullYear()}
           </h1>
         </div>
-        <div className="flex gap-6 rounded-xl border-2 border-white px-6 py-2">
-          <h1>12</h1>
-          <h1>24</h1>
-        </div>
       </div>
     </div>
   );

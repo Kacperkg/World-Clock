@@ -8,6 +8,12 @@ type UserState = {
   getUser: (id: string) => Promise<void>;
 };
 
+interface OverlayStore {
+  isOpen: boolean;
+  open: () => void;
+  close: () => void;
+}
+
 const useUser = create<UserState>((set) => ({
   user: { id: "", locations: [] },
   loading: false,
@@ -21,6 +27,12 @@ const useUser = create<UserState>((set) => ({
       set({ error: "Failed to Fetch User" });
     }
   },
+}));
+
+export const useOverlayStore = create<OverlayStore>((set) => ({
+  isOpen: false,
+  open: () => set({ isOpen: true }),
+  close: () => set({ isOpen: false }),
 }));
 
 export { useUser };

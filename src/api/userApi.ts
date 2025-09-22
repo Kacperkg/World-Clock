@@ -14,10 +14,6 @@ export interface Location {
   cityName: string; // e.g. "Tokyo"
   country?: string; // optional: "Japan"
   timezone: string; // e.g. "Asia/Tokyo"
-  latitude?: number; // optional for map visualization
-  longitude?: number; // optional
-  isFavorite?: boolean; // optional toggle
-  main?: boolean;
 }
 
 const API_URL = "http://localhost:4000/users";
